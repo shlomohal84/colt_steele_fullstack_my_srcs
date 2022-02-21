@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms demo</title>
+</head>
+<body>
+    <h1>form demo</h1>
+    <form action="#">
+        <label for="color">pick color</label>
+        <input type="color" id="color" name="color"/><br/>
+        <input name ="time" type="time" /><br/>
+        <label for="chk1">chk1</label>
+        <input type="checkbox" name="chk1" id="chk1" /><br/>
+
+        <label for="chk2" name="chk2">chk2</label>
+        <input type="checkbox" id="chk2"/>
+        <br/>
+        <label for="txt">text</label>
+        <input type="text" name="text" placeholder="text here!" id="txt"/><br/>
+        <label for="pass">pass</label>
+        <input type="password" name="password" id="pass"/> <br/>
+        <button type="button">static submit</button>
+        <input type="submit" value="submit" />
+    </form>
+    <hr/>
+    <h2>Hijacking searches</h2>
+    <h3>Google Search</h3>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q" />
+        <button>Search Google</button>
+    </form>
+
+    <h3>reddit Search</h3>
+    <form action="https://www.reddit.com/search">
+        <input type="text" name="q" />
+        <button>Search Reddit</button>
+    </form>
+    <h3>Yotube Search</h3>
+
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query" />
+        <button>Search Reddit</button>
+    </form>
+
+
+    <h2>more inputs</h2>
+    <form action="#">
+        <input type="checkbox" name="chk1" id="chk1">
+        <label for="chk1">Check 1</label><br/>
+        <input checked type="checkbox" name="chk2" id="chk2">
+        <label for="chk2">Check 2</label>
+
+        <p>
+            <input type="radio" name="rad" id="rad1" value="1st">
+            <label for="rad1">Option 1</label><br/>
+            <input type="radio" name="rad" id="rad2" value="2nd">
+            <label for="rad2">Option 2</label><br/>
+            <input type="radio" name="rad" id="rad3" value="3rd">
+            <label for="rad3">Option 3</label><br/>
+        </p>
+        <p>
+            <label for="sel">dropdown list</label>
+            <select name="sel" id="sel">
+                <option value="A">Type A</option>
+                <option value="B">Type B</option>
+                <option value="C" selected>Type C</option>
+            </select>
+        </p>
+
+        <p>
+       
+        <button>submit</button>
+     <label for="rng">range</label>
+            <input type="range" name="range" id="rng" 
+                    min="1" max="100" value="0" step="7">
+        </p>
+        <p>
+      
+        </p>
+    </form>
+
+    <form action="#">
+        <label for="username1">username</label>
+        <input type="text" name="username1" id="username1"
+        required maxlength="9" minlength="5" /><br />
+        <label for="pass1">password</label>
+        <input type="password" name="pass1" id="pass1"
+        required maxlength="10" minlength="6" /><br/>
+        <button>submit</button>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,20 @@
+body{
+    font-family: 'Cedarville Cursive', cursive;
+    /* font-family: 'Qahiri', sans-serif; */
+}
+
+section{
+    width: 80%;
+    height: 800px;
+    /* background-color: purple; */
+    background:  center/cover url("https://images.unsplash.com/photo-1625604373294-decfa3c7fc73?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80");
+    margin: 0 auto;
+
+}
+
+h1{
+    font-size: 70px;
+    color:blue;
+    text-align: center;
+
+}

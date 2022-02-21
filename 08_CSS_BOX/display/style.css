@@ -1,0 +1,25 @@
+span{
+    background-color: coral;
+    border: 1px solid black;
+    padding:50px;
+    margin:50px;
+}
+h1{
+    background-color: paleturquoise;
+    border: 1px solid black;
+    padding:50px;
+    margin:50px;
+    width:300px;
+    height: 200px;
+    padding: 50px;
+    margin: 100px;
+    display: none;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: olivedrab;
+    border: 5px solid black;
+    display: inline-block;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marathon Registration</title>
+</head>
+<body>
+    <h1>Race Registration!</h1>
+
+    <form action="" autocomplete="off">
+        <p>
+            <label for="first">First Name</label>
+            <input type="text" name="first" id="first" required autocomplete="off"><br/>
+            <label for="last">Last Name</label>
+            <input type="text" name="last" id="last" required autocomplete="off">
+        </p>
+
+        <h3>Select a Race</h3>
+
+        <p>
+            <input type="radio" name="radio" id="rad1" value="rad1">
+            <label for="rad1">Fun Run 5K</label> <br/>
+
+            <input type="radio" name="radio" id="rad2" value="rad2">
+            <label for="rad2">Half Marathon</label><br/>
+
+            <input type="radio" name="radio" id="rad3" checked value="rad3">
+            <label for="rad3">Full Marathon</label>
+        </p>
+
+        <p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required autocomplete="off"><br/>
+            <label for="pass">Password</label>
+            <input type="password" name="pass" id="pass" required autocomplete="off">
+        </p>
+        <p>
+            <label for="sel">Select Age Group:</label>
+            <select id="sel" name="sel">
+                <option id="u18">Under 18</option>
+                <option id="u30">under 30</option>
+                <option id="u34">under 50</option>
+                <option id="u50">under 60</option>
+            </select>
+        </p>
+        <button>Register</button>
+    </form>
+
+</body>
+</html>
